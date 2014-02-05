@@ -13,10 +13,18 @@ public class whileValue {
    public static void main(String[] args) {
    		int valorActual = 0;
    		System.out.println(args[0]);
+int numero=Integer.parsInt(args[0].toString());
+if(numero>0){
 
+while(valorActual<numero)
+System.out.println(valorActual)
+valorActual++;
+
+
+} else{
    		//si valor actual < args[0]
-   			System.out.println("el valor actual es: "+valorActual);
-      
+   			System.out.println("el valor actual es: "+numero);
+    } 
    }
 
 }
