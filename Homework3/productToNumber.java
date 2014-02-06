@@ -30,7 +30,7 @@ if(inicio<numero)
 System.out.print(" x ");
 }
 }
-System.out.println("el producto es: "+resultado);
+System.out.println(" = "+resultado);
 
 
 
