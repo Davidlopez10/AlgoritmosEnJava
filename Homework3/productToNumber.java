@@ -18,7 +18,7 @@ public class productToNumber {
    		int resultado = 1;
    		System.out.println(args[0]);
 
-int numero=Integer.parseInt(args[].toString());
+int numero=Integer.parseInt(args[0].toString());
 
 if(numero>0){
 for(int inicio=1;inicio<=numero;inicio++){
@@ -30,7 +30,7 @@ if(inicio<numero)
 System.out.print(" x ");
 }
 }
-System.out.println("el producto es: "+" = "+resultado);
+System.out.println("el producto es: "+resultado);
 
 
 
