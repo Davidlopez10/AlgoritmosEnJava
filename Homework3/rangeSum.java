@@ -14,6 +14,7 @@ public class rangeSum {
 		System.out.println("limites: "+args[0]+" "+args[1]);
 
 int limite1=Integer.parseInt(args[0].toString());
+
 int limite2=Integer.parseInt(args[1].toString());      
 
 while (limite1<limite2){
