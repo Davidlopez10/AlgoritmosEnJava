@@ -15,11 +15,33 @@ mostrar
 public class productToNumber {   
 
    public static void main(String[] args) {
-   		int resultado = 0;
+   		int resultado = 1;
    		System.out.println(args[0]);
 
+int numero=Integer.parseInt(args[].toString());
 
-   		System.out.println("el producto es: "+resultado);
+if(numero>0){
+for(int inicio=1;inicio<=numero;inicio++){
+
+	System.out.print(inicio);
+	resultado*=inicio;  		
+if(inicio<numero)
+{
+System.out.print(" x ");
+}
+}
+System.out.println("el producto es: "+" = "+resultado);
+
+
+
+} else {
+
+System.out.println("No ingresar numeros negativos");
+}
+
+
+
+
       
    }
 
