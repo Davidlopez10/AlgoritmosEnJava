@@ -18,6 +18,7 @@ public class FlipFlop {
    		System.out.println(args[0]);
 
 
+
 numeroActual=Integer.parseInt(args[0].toString());
 
 
