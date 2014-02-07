@@ -12,7 +12,7 @@ public class oddEven {
 
    public static void main(String[] args) {
       
-      	System.out.println(args[0]);
+      	//System.out.println(args[0]);
 int numero=0;
 numero=Integer.parseInt(args[0].toString());
 

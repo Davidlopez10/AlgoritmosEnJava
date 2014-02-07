@@ -16,14 +16,11 @@ public class FlipFlop {
    public static void main(String[] args) {
    		int numeroActual = 0;
    		
-
-
-
 numeroActual=Integer.parseInt(args[0].toString());
 
-System.out.println(numeroActual);
+//System.out.println(numeroActual);
 
-/*
+
 
 for(int i=0;i<numeroActual;i++)
 
@@ -43,6 +40,6 @@ if((i%3==0)&&(i%5==0)){
       		System.out.println(i);
    }
 
-*/
+
 }
 }
